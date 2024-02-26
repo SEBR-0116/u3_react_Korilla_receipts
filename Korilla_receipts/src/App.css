@@ -1,0 +1,33 @@
+.Container{
+  display: flex;
+  flex-direction: column;
+  border: 1px red solid;
+  width: 15em;
+  height: 20em;
+ margin-left: 1em;
+
+ }
+ 
+ .Container > h1{
+margin-left: 1em;
+  color: black;
+  font-size: 18px;
+ 
+ }
+
+ p{
+  color: black;
+  font-size: 12px;
+  margin-left: 1px;
+  margin-top: -.5px;
+
+ }
+ h2{
+  color: purple;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  align-self: center;
+  
+ }
