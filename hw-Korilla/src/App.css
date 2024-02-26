@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.receiptDisplay {
+  display: flex;
+  flex-direction: row;
+}
+
+.receipt {
+  border: 1px solid orange;
+  width: 14rem;
+  margin-left: 1rem;
+}
+.receiptText {
+  margin-left: 1rem;
+}
+
+.receiptList {
+  display: flex;
+  flex-direction: row;
+}
