@@ -1,5 +1,8 @@
 import './App.css'
 import Receipt from './components/Receipt'
+import Receipt1 from './components/Receipt1'
+import Receipt2 from './components/Receipt2'
+import Receipt3 from './components/Receipt3'
 
 function App() {
 
@@ -67,7 +70,10 @@ function App() {
   return (
 
     <div className= 'container'>
-      <Receipt receiptData={receipts[0]}/>
+      <Receipt receiptData = {receipts[0]}/>
+      <Receipt1 receiptData = {receipts[1]}/>
+      <Receipt2 receiptData = {receipts[2]}/>
+      <Receipt3 receiptData = {receipts[3]}/>
               
 
     </div>
