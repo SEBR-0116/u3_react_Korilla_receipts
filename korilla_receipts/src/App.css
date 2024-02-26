@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.receipt {
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid;
+  border-color: rgb(156, 154, 154);
+  flex: 1
+}
+
+dl {
+  text-align: left;
+}
+
+dt {
+  font-style: italic;
+  font-weight: bold;
+}
