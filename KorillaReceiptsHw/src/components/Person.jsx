@@ -1,10 +1,12 @@
 
 
-function Person () {
+function Person (props) {
 
     return (
 
-        <div>Person</div>
+        <div className= "person">
+            <h2>{props.person}</h2>
+        </div>
     )
 }
 
