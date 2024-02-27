@@ -1,5 +1,5 @@
 import Receipt from './components/Receipt'
-import Header from './components/Receipt'
+import Header from './components/Header'
 import './App.css'
 
 function App() {
@@ -62,7 +62,9 @@ function App() {
     },
   ]
   return (
-    <div className="page-container">
+    <div>
+     <Header />
+    <div className="receipts-container">
         <div className="receipt-container">
             <Receipt receiptData={receipts[0]}/>
         </div>
@@ -76,7 +78,7 @@ function App() {
             <Receipt receiptData={receipts[3]}/>
         </div>
     </div>
- 
+    </div>
   )
 }
 

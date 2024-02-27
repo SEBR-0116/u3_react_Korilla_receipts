@@ -1,13 +1,14 @@
-.page-container {
+body {
+  display: flex;
+  background-color: white;
+}
+
+.receipts-container {
   display: flex;
   flex-direction: row;
   color: black; 
-  background-color: white;
-  padding:10px;
-
+ 
 }
-
-
 
 .receipt-container {
   background-color: white;
@@ -21,6 +22,11 @@
 }
 .name-text {
   font-size: 30px;
+}
+
+h1 {
+  margin: 10px;
+  color: black
 }
 
 h2 {
