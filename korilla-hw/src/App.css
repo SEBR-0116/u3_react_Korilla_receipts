@@ -1,0 +1,33 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+.receipt-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.receipt {
+  width: 30%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.receipt h2 {
+  margin-bottom: 10px;
+}
+
+.receipt p {
+  margin: 5px 0;
+}
+
+.receipt ul {
+  padding-left: 20px;
+}
