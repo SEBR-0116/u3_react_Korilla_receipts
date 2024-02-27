@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+div .sub{
+  border: 3px solid rgba(207, 123, 27, 0.873);
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 25px;
+ 
+}
+
+.menu-list{
+  color: rgb(87, 10, 158);
+}
+
+.main{
+  display: flex;
+  width: 100%;
+}
+.title{
+  text-align: left;
+}
