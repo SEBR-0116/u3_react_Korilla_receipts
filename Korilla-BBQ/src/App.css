@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  flex-direction: row;
+  align-items: row;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: row;
+  flex-wrap: wrap;
+}
+
+.receipt-container {
+  width: 250px;
+  height: 350px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(205, 205, 205);
+  color: black;
+  justify-content: center;
+  text-align: center;
+  margin: 50px;
+  box-shadow:
+  0 1px 1px rgba(205, 205, 205,0.15),
+  0 10px 0 -5px #eee,
+  0 10px 1px -4px rgba(205, 205, 205,0.15),
+  0 20px 0 -10px #eee,
+  0 20px 1px -9px rgba(205, 205, 205,0.15);
+}
+.person {
+  font-size: 22px;
+}
+
+.order {
+  font-size: 12px;
+}
