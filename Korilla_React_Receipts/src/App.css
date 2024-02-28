@@ -1,0 +1,31 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  margin: 0 auto
+}
+
+.Jeremy,.Brittany,.Tom{
+  padding: 20px;
+  border: 2px solid rgb(237, 76, 8);
+  margin: 15px;
+}
+
+.personName{
+ 
+  font-size: x-large;
+  font-weight: bold;
+
+}
+
+.order{
+ color:purple;
+ font-weight: bold;
+}
+
+span{
+  color:black;
+
+}
