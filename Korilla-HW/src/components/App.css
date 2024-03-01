@@ -1,0 +1,36 @@
+body {
+  background-color: #8f80f4; 
+  color: #240c7d;
+}
+
+.RecieptItem {
+  border: 4px solid #19011c; 
+  padding: 10px;
+  margin-bottom: 10px; /
+}
+
+
+.reciept-list-container {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content:center ; 
+  align-items: center;
+  margin-left: 170px;
+}
+
+
+.app-container {
+  text-align: center; 
+}
+
+
+
+.title {
+  position: absolute; 
+  top: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  margin-top: 20px; 
+  color : #2a0755;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
