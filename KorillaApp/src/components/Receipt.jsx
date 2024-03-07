@@ -56,3 +56,32 @@ const receipts = [
       paid: true,
     },
   ];
+
+  const Receipt = () => {
+
+  <div className="OriginalReceipt">
+    {receipts.map((receipts) => (
+      receipts.paid && (
+
+
+        <div className="receiptItem" key={receipt.id} person={receipt.person} order={receipt.order}>
+
+        <h2>{receipt.person}</h2>
+
+      <ul>  
+        <li>Main: {Main}</li>
+        <li>Protein: {Protein}</li>
+        <li>Rice: {Rice}</li>
+        <li>Sauce: {Sauce}</li>
+        <li>Topping: {Topping}</li>
+        <li>Drink: {Drink}</li>
+        <li>Cost: ${Cost}</li>
+        <li>Paid: {receipt.paid ? 'Yes' : 'No'}</li>
+        
+      </ul>
+      <div/>
+  ))}
+
+    </div>
+}
+  export default Receipt
