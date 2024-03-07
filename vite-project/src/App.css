@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  color: black;
+}
+
+h1 {
+  border-bottom: 2px solid black;
+  margin-left: 5px;
+}
+
+
+
+.receipt-container {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 0;
+  border: 2px solid red;
+  background-color: bisque;
+  width: auto;
+  height: fit-content;
+  padding: 10px;
+}
+
+.container {
+  height: 400px;
+  width: 100vw;
+  margin: 0px 0 0 0;
+}
