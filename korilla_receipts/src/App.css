@@ -1,0 +1,19 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3%;
+}
+
+.receipt {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.receipt li {
+  list-style: none;
+}
+
+.highlight {
+  color: purple;
+}
